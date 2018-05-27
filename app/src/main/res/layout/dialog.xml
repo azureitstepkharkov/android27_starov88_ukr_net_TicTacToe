@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <EditText
+                android:id="@+id/playerX"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:text="TextView"
+                android:layout_gravity="top|center">
+            </EditText>
+            <EditText
+                android:id="@+id/playerO"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom|center">
+            </EditText>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

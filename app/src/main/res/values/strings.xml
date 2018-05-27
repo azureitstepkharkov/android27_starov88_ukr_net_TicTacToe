@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="new_game">New game</string>
+    <string name="records">Highscore</string>
+    <string name="about">About</string>
+    <string name="about_text"><b>TicTacToe game</b>\n<i>by Yevhen Starov</i></string>
+    <string name="no_one_won">dead heat</string>
+    <string name="player_won">%s wins</string>
+    <string name="highscore">High Score</string>
+</resources>
